@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gJ8kCNpHUyh76QNh8y1AW93+SUX+QiHPzgU2RfT5oz4=",
+  "Source": "FiapDocker",
+  "BasePath": "_content/FiapDocker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

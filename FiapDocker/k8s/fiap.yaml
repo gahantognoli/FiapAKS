@@ -1,0 +1,19 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fiapapi-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fiapapi
+  template:
+    metadata:
+      labels:
+        app: fiapapi
+    spec:
+      containers:
+        - name: fiapapi
+          image: joaoantoniomarques/fiapapi
+          ports:
+            - containerPort: 80

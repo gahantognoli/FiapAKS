@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fiapapiservice
+spec:
+  selector:
+    app: fiapapipod
+  type: NodePort
+  ports:
+  - name: fiapapiservice
+    port: 80
+    nodePort: 32761
+    protocol: TCP
+
